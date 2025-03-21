@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAMPlus Services & Projects</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: 250px;
+            height: 100%;
+            background: linear-gradient(135deg, #2C3E50, #1ABC9C);
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .sidebar img {
+            width: 100px; /* Adjust the size of the logo */
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .sidebar a:hover {
+            background-color: #16A085;
+        }
+
+        /* Content Styles */
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            width: calc(100% - 250px);
+        }
+
+        header {
+            background: linear-gradient(135deg, #2C3E50, #1ABC9C);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            background-color: #ecf0f1;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .project h3 {
+            font-size: 1.8rem;
+            color: #1ABC9C;
+        }
+
+        .project p {
+            font-size: 1rem;
+            color: #34495E;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: linear-gradient(135deg, #2C3E50, #1ABC9C);
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .sidebar a.active {
+            background-color: #16A085;
+        }
+
+        .download-link {
+            color: #1ABC9C;
+            text-decoration: none;
+            font-size: 1.1rem;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .download-link:hover {
+            text-decoration: underline;
+        }
+
+        .install-count {
+            color: #34495E;
+            font-size: 1rem;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .coming-soon {
+            color: #E67E22;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .story {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .story h3 {
+            font-size: 2rem;
+            color: #1ABC9C;
+            margin-bottom: 10px;
+        }
+
+        .story p {
+            font-size: 1.2rem;
+            color: #34495E;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Logo Image -->
+        <img src="logo.png" alt="KAMPlus Logo"> <!-- Add your logo image here -->
+
+        <h2>KAMPlus</h2>
+        <a href="#home" class="active">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <header id="home">
+            <h1>KAMPlus Services & Projects</h1>
+            <p>Explore the services, codes, and apps </p>
+        </header>
+
+        <!-- Story about KAMPlus -->
+        <section>
+            <div class="story">
+                <h3>About KAMPlus</h3>
+                <p>KAMPlus is an innovative platform created by Kunash to revolutionize how we interact with AI and technology. From versatile AI assistants to immersive gaming experiences, KAMPlus is built to empower users with the tools they need for everyday tasks and entertainment.</p>
+                <p>At the heart of KAMPlus is its adaptable AI, which can assist with everything from managing your devices to offering health advice and controlling your PC. The platform's continuous development brings new features, updates, and functionalities that make it smarter and more intuitive as time goes on.</p>
+                <p>Whether you're looking to streamline your workflow, enjoy a custom-built game, or experience AI-driven conversations, KAMPlus is your one-stop hub for all things tech innovation.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Our Projects</h2>
+            <div class="project">
+                <h3>KAMOX2</h3>
+                <p>A versatile and powerful version of KAMOX AI, designed for efficient interaction and performance.</p>
+                <a href="KAMOX2.zip" class="download-link" download>KAMOX2 - Download</a>
+                <span class="install-count">Install Count: 1,250</span>
+            </div>
+            <div class="project">
+                <h3>KAMOX3</h3>
+                <p>The third iteration of KAMOX, with enhanced features and better integration for tasks.</p>
+                <a href="KAMOX3.zip" class="download-link" download>KAMOX3 - Download</a>
+                <span class="install-count">Install Count: 1,500</span>
+            </div>
+            <div class="project">
+                <h3>KAMOX4</h3>
+                <p>The latest version of KAMOX with advanced capabilities for more complex operations.</p>
+                <a href="KAMOX4.zip" class="download-link" download>KAMOX4 - Download</a>
+                <span class="install-count">Install Count: 800</span>
+            </div>
+            <div class="project">
+                <h3>TKP (Trainable KAMPlus)</h3>
+                <p>TKP is a trainable version of KAMPlus, designed to adapt and improve over time based on user interactions.</p>
+                <a href="TKP.zip" class="download-link" download>TKP - Download</a>
+                <span class="install-count">Install Count: 1,000</span>
+            </div>
+            <div class="project">
+                <h3>MAK AI</h3>
+                <p>MAK AI is an intelligent chatbot with the ability to perform tasks such as controlling the PC, providing health advice, and more.</p>
+                <span class="coming-soon">Coming Soon!</span>
+            </div>
+            <div class="project">
+                <h3>WildForge</h3>
+                <p>WildForge is an immersive survival game inspired by Minecraft, featuring a vast world and engaging first-person gameplay.</p>
+                <span class="coming-soon">Coming Soon!</span>
+            </div>
+            <div class="project">
+                <h3>SoundFlow</h3>
+                <p>SoundFlow is a music streaming project focused on delivering a smooth and customizable audio experience.</p>
+                <span class="coming-soon">Coming Soon!</span>
+            </div>
+            <div class="project">
+                <h3>KAMPlus</h3>
+                <p>KAMPlus is a versatile AI assistant coming soon with a wide range of functionalities, from task management to device control.</p>
+                <span class="coming-soon">Coming Soon!</span>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="project">
+                <h3>AI Development</h3>
+                <p>We specialize in developing custom AI solutions, including chatbots, virtual assistants, and reinforcement learning systems.</p>
+            </div>
+            <div class="project">
+                <h3>Game Development</h3>
+                <p>We create engaging and immersive games, from survival experiences to adventure and exploration titles like WildForge.</p>
+            </div>
+            <div class="project">
+                <h3>Custom Software Solutions</h3>
+                <p>We offer custom software development services tailored to your specific needs, helping businesses streamline operations and enhance productivity.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kunash. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Handle active link in sidebar
+        const links = document.querySelectorAll('.sidebar a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                links.forEach(link => link.classList.remove('active'));
+                link.classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
+
